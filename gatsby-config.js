@@ -24,7 +24,7 @@ if ('PLATFORM_ROUTES' in process.env) {
   // index = 4;
   pathPrefix = '/site'
   siteUrl = `https://platform.sh`;
-  backendURL = `${result[0]}/api/graphql`
+  backendURL = `${result[0]}api/graphql`
 
 } else {
   console.log('Running locally.');
